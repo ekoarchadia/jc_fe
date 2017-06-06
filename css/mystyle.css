@@ -1,0 +1,56 @@
+html{
+    
+
+    font-family: 'Lobster', cursive;
+
+    font-size:16px;
+}
+body{
+    background-color:#AAD4FF;
+}
+.myClassParent{
+    position: relative;
+    width: 400px;
+    height: 700px;
+    border: 5px solid red;
+    z-index:1000;
+}
+.myClass{
+    border-style: double dashed solid dotted;
+    border-width: 5px;
+    border-color: #ffffff;
+    border-top-color: black;
+    border-bottom-style: dotted;
+    border-bottom-color:blue;
+    background-color: aqua;
+    margin:50px;
+    padding:0px 0px 0px 50px; /*sama dengan padding left*/
+    height: 100px;
+    weight: 50%;
+    max-height: 50px;
+    outline-style: solid;
+    outline-color: #D455FF;
+    outline-width: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    line-height: 2;
+    word-spacing: 20px;
+    
+    position:fixed;
+    bottom:0;
+    z-index:-1;
+
+}
+.menu{
+    background-color: yellowgreen;
+}
+.menu li{
+    background-color: red;
+    display:inline;
+    margin-right: 10px;
+    
+}
+.menu li a{
+    text-decoration: none;
+}

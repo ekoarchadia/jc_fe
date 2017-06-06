@@ -1,0 +1,44 @@
+body{
+    background-color:grey;
+}
+.parent{
+    border-style: solid;
+    text-align: center;
+    font-family: evanescent;
+    background-color:black;
+    border-color:gold;
+    color:gold;
+    font-size:50px;
+    padding:5px;
+}
+.parallax{
+            background-image: url("angle.jpg");
+            min-height: 500px;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color:black;
+        }
+.menu{
+    float:right;
+
+}
+.menu li{
+    background-color:darkred;
+    display:inline;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    border-style: solid;
+    
+}
+.menu li a{
+    text-decoration: none;
+}
+.isi{
+    background-color:gold;
+    text-align: center;
+   border-style:dashed;
+   font-size:16px; 
+   padding:20px;
+}
